@@ -20,4 +20,3 @@ their mid position.
 ***
 TO DO:
 - Allow the 4 servos to be configured as 2 crossover turnouts. Each crossover would have its own events to move to its 3 positions. In addition to the events for each servo, there will be leaving and reached events specifically for each crossover. When either of the servos leaves its current position the leaving event will be sent and when both servos reach their target positions the reached event will be sent.
-- For version with TOTI in the frog is there any way to allow the same board to be used without servos as a 4 way TOTI ??? Possibly use links to short out the TLP241s.
