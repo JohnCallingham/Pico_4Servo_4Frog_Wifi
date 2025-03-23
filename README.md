@@ -15,8 +15,3 @@ This program provides;-
 - The mid point can be used to centre the servo for installation.
 - When the module starts it sends out the leaving event for all servo positions and sets all servos to
 their mid position.
-<br>
-<br>
-***
-TO DO:
-- Allow the 4 servos to be configured as 2 crossover turnouts. Each crossover would have its own events to move to its 3 positions. In addition to the events for each servo, there will be leaving and reached events specifically for each crossover. When either of the servos leaves its current position the leaving event will be sent and when both servos reach their target positions the reached event will be sent.
