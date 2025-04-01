@@ -61,7 +61,7 @@ const char configDefInfo[] PROGMEM =
                 <string size='16'><name>Description</name></string>
                 <eventid>
                   <name>Move event</name>
-                  <description>Send this event to start this servo moving to this position</description>
+                  <description>Receiving this event starts this servo moving to this position</description>
                 </eventid>
                 <int size='1'>
                   <name>Servo Position in Degrees</name>
